@@ -10,7 +10,7 @@ import Profile from "./pages/profile";
 import Checkout from "./pages/checkout";
 import MobileNav from "./components/layout/mobileNav";
 import ClickSpark from "./components/layout/ClickSpark";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Toaster } from "@/components/ui/sonner";
 import { useRouteLoading } from "@/hooks/useLoader";
 import PageLoader from "@/components/layout/pageloader";
@@ -61,8 +61,8 @@ function AppContent() {
 
 export default function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/PIRX">
       <AppContent />
-    </Router>
+    </BrowserRouter>
   );
 }
