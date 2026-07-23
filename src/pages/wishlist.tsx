@@ -13,7 +13,8 @@ export default function WishList() {
   return (
     <>
       {items.length === 0 ? (
-        <div className="flex flex-col items-center justify-center text-center py-32 gap-6 lg:min-h-[51.9vh]">
+        <div className="flex flex-col items-center justify-center text-center py-32 gap-6 min-h-[75vh]">
+          {" "}
           <Heart className="size-30 text-gray-300" />
           <h3 className="text-8xl font-bold text-gray-700">
             Your Wishlist is empty

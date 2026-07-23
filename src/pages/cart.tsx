@@ -22,7 +22,8 @@ export default function Cart() {
 
   if (cartItems.length === 0)
     return (
-      <div className="flex flex-col items-center justify-center py-32 gap-6 text-center lg:min-h-[51.9vh] ">
+      <div className="flex flex-col items-center justify-center py-32 gap-6 text-center min-h-[75vh]">
+        {" "}
         <ShoppingBag className="size-25 md:size-30 text-gray-300" />
         <h3 className="text-6xl md:text-8xl font-bold text-gray-700">
           Your cart is empty

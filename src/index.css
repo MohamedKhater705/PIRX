@@ -166,3 +166,12 @@ body {
 .animate-fade-slide-in {
   animation: fade-slide-in 0.5s ease-out forwards;
 }
+
+html,
+body,
+#root {
+  min-height: 100vh;
+  min-height: 100dvh; /* Handles dynamic mobile address bars */
+  margin: 0;
+  padding: 0;
+}
