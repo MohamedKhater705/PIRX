@@ -29,7 +29,7 @@ export default function SignUp() {
     e.preventDefault();
     login({
       email: email,
-      fullname: fullname,
+      fullName: fullname,
       username: username,
       address: {
         street,

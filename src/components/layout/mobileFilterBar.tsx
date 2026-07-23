@@ -1,6 +1,5 @@
 import Dropdown from "../ui/DropdownM";
-import { Button } from "@/components/ui/button";
-import { Search } from "lucide-react";
+
 import { useSearch } from "@/store/useSearch";
 interface filterBarProps {
   category: string;

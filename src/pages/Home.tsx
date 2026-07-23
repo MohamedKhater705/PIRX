@@ -5,7 +5,7 @@ import MobileBar from "../components/layout/mobileFilterBar";
 import ProductCardSkeleton from "../components/product/skeletonCard";
 import ShinyText from "../components/ui/ShinyText";
 import { useProducts } from "@/hooks/useProducts";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useSearch } from "@/store/useSearch";
 import type { Product } from "@/types";
 
