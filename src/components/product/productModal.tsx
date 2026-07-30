@@ -58,7 +58,7 @@ export default function ProductModal({ product, onClose }: CardProps) {
   return (
     <>
       <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-[555] p-4 ">
-        <div className="relative w-full max-w-[1500px] lg:min-h-[700px] max-h-[100vh] bg-white rounded-4xl flex flex-col lg:flex-row items-center justify-between px-8 lg:px-20 gap-10 lg:gap-50 overflow-y-auto scrollbar-none py-12 lg:py-20 transform transition-all animate-in fade-in zoom-in-95 duration-200 ease-out ">
+        <div className="relative w-full max-w-[1300px] lg:min-h-[700px] max-h-[90vh] bg-white rounded-4xl flex flex-col lg:flex-row items-center justify-between px-8 lg:px-20 gap-10 lg:gap-50 overflow-y-auto scrollbar-none py-12 lg:py-20 transform transition-all animate-in fade-in zoom-in-95 duration-200 ease-out ">
           <button
             onClick={onClose}
             className="absolute top-2 right-1.5 lg:top-8 lg:right-8 text-gray-400 hover:text-red-600 active:text-red-600 hover:scale-110 active:scale-125 lg:active:scale-90 transition-all duration-200 cursor-pointer">
